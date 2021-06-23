@@ -1,0 +1,8 @@
+This folder houses scripts for EMG data including:
+
+  1) EMG_data_plotting.ipynb which plots each subjects EMG stride data on its own subplot and exports a .png file of all 11 muscles. 
+     Each cubplot contains an EMG waveform representative of a single stride
+     
+  2) EMG_PCA_wrangling.ipynb is a notebook that takes each EMG waveform for each stride and appends a matrix that is 101 rows long. 
+     These matrices will be used for a principal component analysis to detect the patterns within the waveforms that represent differences
+     between those with PFPS and healthy individuals. 
