@@ -13,7 +13,7 @@ Method Two: average each subjects n strides at each time point together, resulti
 4. Run kinetic_kinematic_z_score_transform: a data transformation is necessary for PCA because joint angles and moments can be on different scales depending on the subject.
 5. Run all_group_concatenator to concatenate each group (healthy, injured, recovered) into one matrix. This is necessary to run the principal component analysis because
    you need each group included in the matrix to generate PC scores.
-6. Run kinetic_kinematic_PCA_individual_muscles (method one) or kinetic_kinematic_PCA_subject_means (method two). Change the muscle of interest each time you run the script. It will output three
+6. Run kinetic_kinematic_PCA_individual_metric_strides (method one) or kinetic_kinematic_PCA_individual_metric_means (method two). Change the muscle of interest each time you run the script. It will output three
    matrices per muscle: principal component scores, explained variance for each PC, and the loadings. 
 
 Once all these steps are complete, move to PFP_project/machine_learning to generate matrices of PC scores and run respective machine learning models.
