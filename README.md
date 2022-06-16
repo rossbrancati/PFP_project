@@ -5,5 +5,11 @@ Patellofemoral pain syndrome (PFPS) is a common running injury that results in p
 1. Will machine learning models accurately classify individuals as healthy, injured, and recovered? 
 2. Does the onset of fatigue impact a recovered individuals classification? 
 
-We plan to release a paper with detailed results on this analysis. This GitHub repository contains opensource jupyter notebooks written in Python 3.0 that can be used by other research groups in their studies.
+We are currently working on a publication with detailed results on analysis methods. This GitHub repository contains opensource jupyter notebooks written in Python 3.0.
+
+The first notebook titled "pre_processing_notebook.ipynb" walks through steps of importing data, ensemble averaging trials, plotting data, removing noisy signals, clipping some of the variables to only the stance phase, running a principal component analyses, plotting principal components for interpretation purposes, and more. Once the paper is released, we may upload the dataset (TBD). 
+
+The second notebook titled "Logistic_Regression_Machine_Learning.ipynb" contains all the setps used in the machine learning portion of the project. These include classifying injured and healthy runners, using leave one out cross validation to prevent overfitting, determining which features are most important for classifying these two groups, ranking feature importance, classifying recovered runners (as either healthy or injured), and more. 
+
+To run these notebooks, you will need access to the data, and will need to change some file paths within the notebooks. 
 
