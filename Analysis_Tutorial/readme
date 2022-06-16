@@ -1,6 +1,0 @@
-I created a Jupyter notebook that walks through the machine learning portion of this project. 
-The input file is a matrix of 96 observations and 137 features. 
-  -Each observation is a runner at either minute 1 or mintue 21 of a 21 minute treadmill run.
-  -Each feature is the score of an associated principal component for each kinetic, kinematic, and electromyography variable. 
-   -The principal components that explained 90% of the variability in the data were included for a total of 137 features.
-  
